@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash Sreeram</title>
+    <link rel="icon" href="Images/titlelogo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0085e5bb78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="Images/logo.png" class="logo"> -->
+            <h1>  <span>A</span>akash <br> <span>S</span>reeram</h1>
+            <!-- <h1><span>SA</span></h1> -->
+            <ul id="sidemenu">
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificates">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <!-- <p>Java Developer</p> -->
+            <h1>Hi, <br> I'm a <span><br>Java developer</span></h1>
+        </div>
+    </div>
+</div>
+<!-- ------------------------about-------------------------- -->
+<div id="about">
+    <div class="row">
+        <div class="about-col1">
+            <img src="Images/about.jpeg">
+        </div>
+        <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p> I'm Sreeram Aakash from Warangal, a final year undergraduate at SR University. Proficient in programming and adept at problem-solving, I thrive on tackling complex challenges. My passions lie at the intersection of Astronomy and Software, where I find boundless opportunities for exploration and innovation. Beyond academics, I indulge in carrom matches and enjoy immersing myself in captivating films. With my sights set on a role as a Software Development Engineer in a distinguished MNC, I'm eager to contribute my skills to cutting-edge projects.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('internship')">Interships</p>
+                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li><span>SR University</span><br>B.Tech in Electronics & Communication Engineering</li>
+                    <li><span>Navavignana Bharathi Jr College</span><br>Intermediate in Maths, Physics & Chemistry</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="internship">
+                <ul>
+                    <li><span>AI&ML Virtual Internship</span><br>10 Weeks of internship offered by AICTE under AWS Academy</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="skills">
+                <ul>
+                    <li><span>Programming Languages <br> </span>C <br> Java <br> Python <br> HTML <br> CSS </li>
+                    <li><span>Others <br> </span>DSA <br> Machine Learning <br> Fusion360 <br> Matlab</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------certifications---------------------------- -->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="certificates-list">
+            <div>
+                <h2> ML & DL Applications (NITW)</h2>
+                <a href="https://drive.google.com/file/d/1YklMZWR7b270jgSmkL2waMuF7uKDhbiy/view?usp=drive_link">Learn more</a>
+            </div>
+            <div>
+                <h2> Azure Fundamentals</h2>
+                <a href="https://drive.google.com/file/d/1oF3Od9AmmJYiM7yf_WiNysb6kOPyulim/view?usp=drive_link">Learn more</a>
+            </div>
+            <div>
+                <h2> Azure AI Fundamentals</h2>
+                <a href="https://drive.google.com/file/d/16TC2frmkGQh23Lbt3E7t-iIkMVAHuK4n/view?usp=drive_link">Learn more</a>
+            </div>
+            <div>
+                <h2> Python for Data Science</h2>
+                <a href="https://drive.google.com/file/d/1IHTsxZS2_ZW_5gXNiya9EHSoLEbTwEwY/view?usp=drive_link">Learn more</a>
+            </div>
+            <div>
+                <h2> AWS Cloud Foundations</h2>
+                <a href="https://drive.google.com/file/d/1396Opi920TRg1jM46CbfuxzSs44iXfpg/view?usp=drive_link">Learn more</a>
+            </div>
+            <div>
+                <h2> AWS Machine Learning Foundations</h2>
+                <a href="https://drive.google.com/file/d/1CDE6vdmCpHN3hEe1UtI0Xp9tTM4KhtyB/view?usp=drive_link">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------projects-------------------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <!-- <img src="Images/project1.jpg" alt=""> -->
+                <h3>BIRADS Prediction</h3>
+                <p>Prediction of BIRADS score using Machine learning Algorithms with the help of a dataset.</p>
+                <!-- <div class="layer">
+
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+            <div class="project">
+                <!-- <img src="Images/project1.jpg" alt=""> -->
+                <h3>Smart Bin</h3>
+                    <p>It is a IoT-based project in which we can alert owner or recruited person for 
+                        that position through SMS, call, email when trash in a closed public place is almost 
+                        filled </p>
+                <!-- <div class="layer">
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+            <div class="project">
+                <!-- <img src="Images/project1.jpg" alt=""> -->
+                <h3>BCD Counter</h3>
+                <p>Designed a 7-segment display using basic logic gates i.e and, or, not. It displays the count based on the 4 input switches (4-bit code). </p>
+                <!-- <div class="layer">
+
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+            <div class="project">
+                <!-- <img src="Images/project1.jpg" alt=""> -->
+                <h3>My Portfolio</h3>
+                <p>Designed a webpage that showcases my work and my personailty. </p>
+                <!-- <div class="layer">
+
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+<!-- -----------------contact----------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> sreeramaakash1@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9652452947</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/m.r.alone___/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/AakashSreeram"><i class="fa-brands fa-twitter-square"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
+                    <a href="https://www.linkedin.com/in/sreeramaakash/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Accenture resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <!-- <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div> -->
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aakash.</p>
+    </div>
+</div>
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+</html>
