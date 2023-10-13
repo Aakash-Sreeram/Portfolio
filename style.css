@@ -16,6 +16,7 @@ body{
     height: 100vh;
     background-image: url(Images/background.jpg);
     background-size: 110%;
+    background-repeat: no-repeat;
     background-position: right;
     background-position-x: right;
     background-position-y: center;
