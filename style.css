@@ -20,6 +20,7 @@ body{
     background-position: right;
     background-position-x: right;
     background-position-y: center;
+    scroll-snap-align: center;
 }
 .container{
     padding: 10px 10%;
@@ -79,6 +80,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 10%;
     color: #fff;
+    scroll-snap-align: center;
 }
 .row{
     display: flex;
@@ -147,6 +149,7 @@ nav ul li a:hover::after{
 /* ---------------------------------certifications--------------------------------- */
 #certificates{
     padding: 30px 0;
+    scroll-snap-align: center;
 }
 .certificates-list{
     display: grid;
@@ -181,6 +184,7 @@ nav ul li a:hover::after{
 /* -------------------projects--------------------- */
 #projects{
     padding: 50px 0;
+    scroll-snap-align: center;
 }
 .project-list{
     display: grid;
@@ -281,6 +285,7 @@ nav ul li a:hover::after{
 /* ------------------contact-------------------------- */
 #contact .container{
     margin-top: 200px;
+    scroll-snap-align: center;
 }
 .contact-left{
     flex-basis: 35%;
